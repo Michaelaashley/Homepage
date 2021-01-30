@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 6px;
+}
+
+
+/* Navigation */
+
+.nav-container {
+    background: #FFFFFF;
+    height: 110px;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 110px
+}
+
+nav ul {
+    display:flex;
+}
+
+nav ul {
+    display:flex
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    font-family:'Mulish',sans-serif;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+
+/* Header Content */
+
+.largecircle {
+    position: relative;
+    width: 670.41px;
+    height: 700px;
+    left: -138px;
+    top: -230px;
+}
+
+.smallcircle {
+    position: absolute;
+width: 273.46px;
+height: 263.21px;
+left: 300px;
+top: 500px;
+transform: rotate(-177.04deg);
+}
+
+.logo {
+    position: relative;
+width: 76.15px;
+height: 40px;
+left: 670px;
+top: 100px;
+}
+
+header h1 {
+    position: relative;
+    flex-wrap: wrap;
+width: 375px;
+left: 770px;
+bottom: 650px;
+font-family: 'Playfair Display', serif;
+font-style:inherit;
+font-weight:lighter;
+font-size: 40px;
+line-height: 53px;
+color: #272626;
+}
+
+header p1 {
+    position: relative;
+    display:block;
+    margin: auto;
+    max-width: 50%;
+    left: 300px;
+    bottom: 600px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 45px;
+color: #272626;
+}
+
+
+/* My Work Content */
+
+body h2 {
+    position: relative;
+    display:flex;
+width: 284px;
+left: 1102px;
+bottom: 300px;
+font-family: 'Playfair Display', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 80px;
+color: #272626;
+}
+
+.travlbee {
+    position: relative;
+    display: flex;
+width: 752px;
+left: 28px;
+bottom: 200px;
+border-radius: 41px;
+}
+
+body p2 {
+    position: relative;
+    display: block;
+    max-width: 45%;
+left: 802px;
+bottom: 600px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+
+body {
+    background-image: url(images/circlegrid1.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:initial;
+}
+
+.case-btn {
+    position: relative;
+    display: flex;
+width: 246px;
+left: 802px;
+bottom: 580px;
+}
+
+.spark {
+    position: relative;
+    display: flex;
+    width: 643px;
+    right: 50%;
+    left: 774px;
+    bottom: 200px;
+    border-radius: 41px;
+}
+
+body p3 {
+    position: relative;
+    text-align: right;
+    display:block;
+    max-width: 45%;
+left: 100px;
+bottom: 800px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+text-align: right;
+color: #000000;
+}
+
+.case-btn2 {
+    position: relative;
+    margin-left: 28%;
+    display: flex;
+    width: 246px;
+    left: 100px;
+    bottom: 780px;
+}
+
+.benefitsgov {
+    position: relative;
+    display: flex;
+    width: 643px;
+    left: 31px;
+    bottom: 250px;
+    border-radius: 41px;
+}
+
+body p4 {
+    position: relative;
+    display: block;
+    max-width: 45%;
+left: 710px;
+bottom: 850px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+}
+
+.case-btn3 {
+    position: relative;
+    display: flex;
+    width: 246px;
+    left: 710px;
+    bottom: 830px;
+}
+
+footer h1 {
+    position: absolute;
+width: 392px;
+left: 521px;
+top: 3100px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+color: #000000;
+}
+
+footer p5 {
+    position: absolute;
+width: 544px;
+height: 50px;
+left: 445px;
+top: 3170px;
+font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.flex-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50px;
+height: 60px;
+left: 700px;
+top: 3230px;
+}
+
+
+
+
+.circlegrid2 {
+    position: relative;
+    left: 22%;
+    top: 20px;
+}
+
+
+
+
+/* Hidden Items */
+
+.menuside-btn {
+    display:none;
+}
