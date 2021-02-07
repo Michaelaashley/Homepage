@@ -101,6 +101,13 @@ line-height: 45px;
 color: #272626;
 }
 
+.header-container {
+    background:url("/Users/kaykay/Documents/UX_UI_HW_18_2/images/circlegrid1.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
 
 /* My Work Content */
 
