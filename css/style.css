@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 8px;
 }
 
@@ -8,29 +7,25 @@
 
 .nav-container {
     background: #FFFFFF;
-    height: 110px;
+    height: 100px;
 }
+
 
 nav {
     display:flex;
     align-items: center;
     justify-content: flex-end;
-    height: 110px
+    height: 95px
 }
 
 nav ul {
     display:flex;
 }
 
-nav ul {
-    display:flex
-}
-
 .nav-items li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 35px;
 }
-
 
 .nav-items li:nth-last-of-type(1) {
     margin: 0;
@@ -41,9 +36,15 @@ nav ul {
     font-size: 25px;
     color: #000000;
     text-decoration: none;
-
 }
 
+.menu-items li a {
+    font-family:'Mulish',sans-serif;
+    font-size: 72px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
 
 /* Header Content */
 
@@ -101,12 +102,6 @@ line-height: 45px;
 color: #272626;
 }
 
-.header-container {
-    background:url("/Users/kaykay/Documents/UX_UI_HW_18_2/images/circlegrid1.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
 
 
 /* My Work Content */
@@ -149,7 +144,7 @@ color: #000000;
 }
 
 body {
-    background-image: url(images/circlegrid1.svg);
+    background-image: url(/Users/kaykay/Documents/UX_UI_HW_18_2/images/circlegrid1.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size:initial;
@@ -167,8 +162,8 @@ bottom: 580px;
     position: relative;
     display: flex;
     width: 643px;
-    right: 50%;
-    left: 774px;
+    right: 60%;
+    left: 740px;
     bottom: 200px;
     border-radius: 41px;
 }
@@ -178,7 +173,7 @@ body p3 {
     text-align: right;
     display:block;
     max-width: 45%;
-left: 100px;
+left: 80px;
 bottom: 800px;
 font-family: "Mulish";
 font-style: normal;
@@ -194,7 +189,7 @@ color: #000000;
     margin-left: 28%;
     display: flex;
     width: 246px;
-    left: 100px;
+    left: 80px;
     bottom: 780px;
 }
 
@@ -281,14 +276,10 @@ color: #000000;
 .circlegrid2 {
     position: absolute;
     margin-left: 20%;
-    margin-top: 0%;
+    margin-top: -8%;
 }
 
 
 
 
 /* Hidden Items */
-
-.menuside-btn {
-    display:none;
-}
