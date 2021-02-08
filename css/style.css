@@ -75,7 +75,7 @@ header h1 {
     position: relative;
     flex-wrap: wrap;
 width: 375px;
-left: 770px;
+left: 58%;
 bottom: 650px;
 font-family: 'Playfair Display', serif;
 font-style:inherit;
@@ -245,8 +245,8 @@ footer p5 {
     justify-content: center;
 width: 544px;
 height: 50px;
-margin-left: 32%;
-bottom: 200px;
+margin-left: 30%;
+bottom: 210px;
 font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
@@ -262,9 +262,9 @@ color: #000000;
     position: relative;
     display: flex;
     flex-direction: row;
-    margin-left: 42.5%;
-    bottom: 200px;
-    width: 50px;
+    margin-left: 38.5%;
+    bottom: 230px;
+    width: 40px;
     height: 60px;
 }
 
