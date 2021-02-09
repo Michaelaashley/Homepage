@@ -27,9 +27,6 @@ nav ul {
     margin-right: 35px;
 }
 
-.nav-items li:nth-last-of-type(1) {
-    margin: 0;
-}
 
 .nav-items li a {
     font-family:'Mulish',sans-serif;
@@ -40,6 +37,43 @@ nav ul {
 
 
 
+/* Hamburger Menu */
+  
+  .hamburger .line{
+    width: 50px;
+    height: 3px;
+    background-color: #000000;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger:hover{
+    cursor: pointer;
+  }
+
+#menu-btn{
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #menu-btn.is-active{
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  #menu-btn.is-active .line:nth-child(1){
+    width: 30px
+  }
+  
+  #menu-btn.is-active .line:nth-child(2){
+    width: 40px
+  }
 
 
 
@@ -60,7 +94,6 @@ width: 273.46px;
 height: 263.21px;
 left: 300px;
 top: 500px;
-transform: rotate(-177.04deg);
 }
 
 .logo {
