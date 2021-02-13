@@ -1,3 +1,4 @@
+
 * {
     margin: 5px;
 }
@@ -42,15 +43,23 @@ nav a {
 
 .sub-menu {
     min-width: 479px;
-    min-height: 625px;
+    min-height: 250px;
     right: 0px;
-    top: -300px;
+    top: -200px;
     background-color: #74DAE0;
     border: 2px solid #64BFBA;
     border-radius: 164px;
     z-index: 0;
     position: absolute;
     transform: translate(100px, 200px);
+}
+
+.twomorelinks {
+    margin: 20%;
+    padding: 20%;
+    display: block;
+    flex-direction: column;
+
 }
 
 span {
@@ -421,6 +430,7 @@ color: #000000;
     margin-left: 20%;
     margin-top: -8%;
 }
+
 
 
 
